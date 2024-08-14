@@ -1,15 +1,13 @@
-package com.example.todoapp.presentaion.activities.home
+package com.example.todoapp.presentation.activities.home
 
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.todoapp.R
 import com.example.todoapp.databinding.ActivityHomeBinding
-import com.example.todoapp.presentaion.fragments.tasks.HomeViewModel
-import com.example.todoapp.presentaion.fragments.tasks.ui.AddTaskDialogFragment
+import com.example.todoapp.presentation.fragments.tasks.ui.AddTaskDialogFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

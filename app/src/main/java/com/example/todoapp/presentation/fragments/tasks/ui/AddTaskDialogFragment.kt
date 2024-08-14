@@ -1,4 +1,4 @@
-package com.example.todoapp.presentaion.fragments.tasks.ui
+package com.example.todoapp.presentation.fragments.tasks.ui
 
 import android.app.DatePickerDialog
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import com.example.todoapp.data.models.Task
 import com.example.todoapp.databinding.FragmentAddTaskDialogBinding
-import com.example.todoapp.presentaion.fragments.tasks.HomeViewModel
+import com.example.todoapp.presentation.fragments.tasks.HomeViewModel
 import com.example.todoapp.util.clearTimeInCalendar
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
