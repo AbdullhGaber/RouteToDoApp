@@ -7,8 +7,22 @@
        <item name="android:textColor">?attr/colorOnPrimary</item>
    </style>
 
+    <style name="body">
+       <item name="fontFamily">@font/poppins_bold</item>
+       <item name="fontWeight">700</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:textColor">@color/blue</item>
+   </style>
+
     <style name="fab_rounded">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="CustomTextAppearance" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
 </resources>
