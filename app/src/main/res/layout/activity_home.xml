@@ -7,13 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mint_green"
-    tools:context=".MainActivity">
+    tools:context=".presentaion.activities.home.HomeActivity">
 
 <com.google.android.material.appbar.AppBarLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingVertical="80dp"
-    android:paddingStart="20dp"
     android:background="@color/blue"
     >
 
@@ -28,6 +26,7 @@
         />
     </com.google.android.material.appbar.MaterialToolbar>
 </com.google.android.material.appbar.AppBarLayout>
+
 
 <com.google.android.material.bottomappbar.BottomAppBar
     android:id="@+id/bottom_app_bar"
@@ -68,4 +67,11 @@
         app:elevation="10dp"
         app:layout_anchor="@id/bottom_app_bar"
         app:shapeAppearanceOverlay="@style/fab_rounded" />
+
+    <include
+        android:id="@+id/content_id"
+        layout="@layout/content_home"
+    />
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

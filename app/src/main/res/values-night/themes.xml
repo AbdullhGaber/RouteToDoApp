@@ -5,7 +5,8 @@
         <item name="colorPrimaryVariant">@color/blue</item>
         <item name="colorOnPrimary">@color/black100</item>
 
-         <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/white</item>
          <item name="colorOnSecondary">@color/dark_blue</item>
     </style>
 </resources>

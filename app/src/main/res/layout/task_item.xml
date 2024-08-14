@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zerobranch.layout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:draggedItem="@id/task_card_view"
+    app:isContinuousSwipe="false"
+    app:leftItem="@id/left_view"
+    app:swipeDirection="right">
+
+    <ImageView
+        android:id="@+id/left_view"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/task_delete_shape"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:src="@drawable/ic_delete"
+        android:visibility="visible" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/task_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:cardCornerRadius="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="8dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@color/blue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/title_tv"
+                style="@style/body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:maxEms="7"
+                android:text="Play Basket Ball"
+                app:layout_constraintEnd_toStartOf="@+id/check_button"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/time_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toEndOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/title_tv"
+                app:srcCompat="@drawable/baseline_access_time_24" />
+
+            <TextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:text="10:30 AM"
+                app:layout_constraintStart_toEndOf="@+id/time_iv"
+                app:layout_constraintTop_toTopOf="@+id/time_iv" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/check_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/task_check_btn"
+                android:drawableStart="@drawable/check_ic"
+                android:fontFamily="@font/poppins_bold"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="5dp"
+                android:textAllCaps="false"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</com.zerobranch.layout.SwipeLayout>
+

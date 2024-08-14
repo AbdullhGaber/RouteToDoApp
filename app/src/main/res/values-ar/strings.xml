@@ -4,4 +4,13 @@
     <string name="to_do_list">قائمة المهام</string>
     <string name="home">الصفحة الرئيسية</string>
     <string name="settings">الإعدادات</string>
+    <string name="title">الاسم</string>
+    <string name="description">الوصف</string>
+    <string name="select_time">اختر الوقت</string>
+    <string name="add_task">اضف مهمة</string>
+    <string name="edit_task">Edit task</string>
+    <string name="select_date">اختر تاريخ</string>
+    <string name="save">حفظ</string>
+    <string name="no_selected_date">لا يوجد تاريخ</string>
+    <string name="done">تم انجازه !</string>
 </resources>
