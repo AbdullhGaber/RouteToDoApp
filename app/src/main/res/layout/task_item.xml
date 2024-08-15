@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible"
+        app:cardBackgroundColor="?attr/colorOnPrimary"
         app:cardCornerRadius="20dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -78,6 +79,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="2dp"
                 android:text="10:30 AM"
+                android:textColor="?attr/colorSecondaryVariant"
                 app:layout_constraintStart_toEndOf="@+id/time_iv"
                 app:layout_constraintTop_toTopOf="@+id/time_iv" />
 

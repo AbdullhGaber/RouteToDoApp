@@ -1,8 +1,7 @@
-package com.example.todoapp.presentaion.fragments.tasks
+package com.example.todoapp.presentation.fragments.tasks
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.todoapp.data.models.Task
 import com.example.todoapp.domain.usecases.task_usecases.TaskUseCases
 import dagger.hilt.android.lifecycle.HiltViewModel

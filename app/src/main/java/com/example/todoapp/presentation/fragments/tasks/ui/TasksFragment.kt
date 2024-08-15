@@ -1,28 +1,24 @@
-package com.example.todoapp.presentaion.fragments.tasks.ui
+package com.example.todoapp.presentation.fragments.tasks.ui
 
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.todoapp.R
 import com.example.todoapp.data.models.TaskStatus
 import com.example.todoapp.databinding.FragmentTasksBinding
-import com.example.todoapp.presentaion.activities.task.TaskDetailsActivity
-import com.example.todoapp.presentaion.fragments.tasks.HomeViewModel
-import com.example.todoapp.presentaion.fragments.tasks.adapters.TaskRvAdapter
+import com.example.todoapp.presentation.activities.task.TaskDetailsActivity
+import com.example.todoapp.presentation.fragments.tasks.HomeViewModel
+import com.example.todoapp.presentation.fragments.tasks.adapters.TaskRvAdapter
 import com.example.todoapp.util.Constants
 import com.example.todoapp.util.clearTimeInCalendar
 import com.prolificinteractive.materialcalendarview.CalendarDay
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import java.util.Calendar
 

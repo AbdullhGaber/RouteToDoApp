@@ -1,4 +1,4 @@
-package com.example.todoapp.presentaion.activities.task
+package com.example.todoapp.presentation.activities.task
 
 import android.app.DatePickerDialog
 import android.os.Build
@@ -9,7 +9,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.example.todoapp.data.models.Task
 import com.example.todoapp.databinding.ActivityTaskDetailsBinding
-import com.example.todoapp.presentaion.fragments.tasks.HomeViewModel
+import com.example.todoapp.presentation.fragments.tasks.HomeViewModel
 import com.example.todoapp.util.Constants
 import com.example.todoapp.util.clearTimeInCalendar
 import dagger.hilt.android.AndroidEntryPoint

@@ -12,4 +12,10 @@
     <string name="save">Save</string>
     <string name="no_selected_date">No Selected date</string>
     <string name="done">Done !</string>
+    <string name="language">language</string>
+    <string name="english">English</string>
+    <string name="mode">Mode</string>
+    <string name="light">Light</string>
+    <string name="night">Night</string>
+    <string name="arabic">Arabic</string>
 </resources>
