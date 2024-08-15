@@ -24,6 +24,7 @@ class HomeActivity : AppCompatActivity() {
         mBinding.fabBtn.setOnClickListener {
            showAddTaskDialog()
         }
+
     }
 
     private fun showAddTaskDialog() {
